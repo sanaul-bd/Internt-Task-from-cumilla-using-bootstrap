@@ -1,0 +1,19 @@
+
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: auto;
+    background: gray;
+    padding: 30px 15px 15px 15px;
+    background: #202020;
+}
+.header img{
+    width: 80px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 9px;
+}

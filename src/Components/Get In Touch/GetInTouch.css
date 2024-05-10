@@ -1,0 +1,80 @@
+
+.main-get{
+    display: flex;
+}
+.get-left{
+    width: 40%;
+    text-align: left;
+    position: relative;
+}
+.get-text::before{
+    position: absolute;
+    content: "";
+    top: 70px;
+    left: 0;
+    border-bottom: 5px solid #000;
+    width: 15%;
+}
+.get-text::after{
+    position: absolute;
+    content: "";
+    top: 72px;
+    left: 0;
+    border-bottom: 1px solid #000;
+    width: 35%;
+}
+.get-left h2, span{
+    margin: 20px 0;
+    font-style: bold;
+}
+.button button{
+    padding: 12px 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: white;
+}
+
+.get-right{
+    width: 60%;
+    margin: 20px;
+}
+.get-right textarea{
+    /* border: 1px solid gray; */
+    width: 98%;
+    margin-bottom: 30px;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid grey;
+}
+.inputt{
+    width: 48%;
+    margin: 0 6px;
+}
+.human-input{
+    border: 1px solid grey;
+    width: 70px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+
+
+.i-div {
+    margin: 30px 0;
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons a {
+    color: black;
+    margin: 0 10px;
+}

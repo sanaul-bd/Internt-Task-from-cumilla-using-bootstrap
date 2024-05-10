@@ -1,0 +1,14 @@
+
+
+.p-all{
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 70%;
+}
+.p-all img{
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+}

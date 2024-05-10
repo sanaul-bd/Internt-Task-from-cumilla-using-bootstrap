@@ -1,0 +1,17 @@
+
+
+.rootCover{
+    display: flex;
+    background: #202020;
+    height: 500px;
+}
+
+.cover-left{
+    width: 50%;
+    color: white;
+    margin-top: 200px;
+    font-style: normal;
+}
+.cover-right{
+    width: 50%;
+}
